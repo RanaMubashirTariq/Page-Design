@@ -1,0 +1,13 @@
+.last-section-main-div{
+    max-width: 100%;
+    margin: 3px 0px 15px 0px;
+}
+.last-section-main-div img{
+    width: 100%;
+}
+
+@media screen and (max-width:1300px) {
+    .last-section-main-div{
+        margin: 3px 30px 15px 30px;
+    }
+}

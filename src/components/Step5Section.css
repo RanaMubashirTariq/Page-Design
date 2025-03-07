@@ -1,0 +1,139 @@
+.step-5-main-div{
+    max-width: 100%;
+    margin: 0px 60px 15px 30px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    background: rgba(255, 255, 255, 1);
+}
+.step-5-2nd-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.para-1st p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: rgba(134, 134, 134, 1);
+    margin: 0;
+}
+.para-1st p span{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500; 
+}
+.para-last p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: rgba(134, 134, 134, 1);
+    margin: 0;
+}
+.para-last p span{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500; 
+}
+
+
+@media screen and (max-width:1300px) {
+    .step-5-main-div{
+        margin: 0px 30px 15px 30px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .step-5-main-div {
+        padding: 40px;
+    }
+
+    .head-part-1st-div h2 {
+        font-size: 22px;
+    }
+
+    .para-1st p,
+    .para-last p {
+        font-size: 15px;
+        line-height: 150%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .step-5-main-div {
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .head-part-1st-div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .head-part-1st-div h2 {
+        font-size: 20px;
+    }
+
+    .para-1st p,
+    .para-last p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+}
+
+/* Mobile - 480px and below */
+@media screen and (max-width: 480px) {
+    .step-5-main-div {
+        padding: 20px 15px;
+        gap: 16px;
+    }
+
+    .head-part-1st-div button {
+        font-size: 11px;
+        padding: 10px 12px;
+    }
+
+    .head-part-1st-div h2 {
+        font-size: 18px;
+    }
+
+    .para-1st p,
+    .para-last p {
+        font-size: 12px;
+        line-height: 140%;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .step-5-main-div {
+        padding: 20px 15px;
+        gap: 16px;
+    }
+
+    .head-part-1st-div button {
+        font-size: 11px;
+        padding: 10px 12px;
+    }
+
+    .head-part-1st-div h2 {
+        font-size: 18px;
+    }
+
+    .para-1st p,
+    .para-last p {
+        font-size: 9px;
+        line-height: 140%;
+    }
+}

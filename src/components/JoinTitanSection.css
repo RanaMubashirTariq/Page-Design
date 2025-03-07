@@ -1,0 +1,119 @@
+.join-titan-main-div{
+    max-width: 100%;
+    margin: 0px 60px 15px 30px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+}
+.join-titan-1st-div h2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    color: rgba(12, 13, 14, 1);
+    margin: 0;    
+}
+.join-titan-2nd-div p{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0%;
+    color: rgba(134, 134, 134, 1);
+    margin: 0;    
+}
+.join-titan-3rd-div img{
+    width: 100%;
+}
+.join-titan-4rd-div img{
+    position: absolute;
+    top: 189px;
+    right: 192.88px;
+}
+
+
+
+@media screen and (max-width: 1439px) {
+    .join-titan-main-div {
+        padding: 40px;
+        margin: 0 30px 15px 30px;
+    }
+
+    .join-titan-1st-div h2 {
+        font-size: 22px;
+    }
+
+    .join-titan-2nd-div p {
+        font-size: 14px;
+        line-height: 180%;
+    }
+
+    .join-titan-4rd-div img{
+        position: absolute;
+        top: 189px;
+        right: 130.88px;
+    }
+}
+
+
+@media screen and (max-width:1050px) {
+    .join-titan-4rd-div img{
+        position: absolute;
+        top: 189px;
+        right: -100px;
+    }
+}
+
+/* Mobile View (below 768px) */
+@media screen and (max-width: 1000px) {
+    .join-titan-main-div {
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .join-titan-1st-div h2 {
+        font-size: 20px;
+    }
+
+    .join-titan-2nd-div p {
+        font-size: 14px;
+        line-height: 170%;
+    }
+
+    /* Hide desktop image, show mobile image */
+    /* .join-titan-3rd-div {
+        display: none;
+    } */
+
+    .join-titan-4rd-div img {
+        display: none;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
+
+/* Small Mobile (below 480px) */
+@media screen and (max-width: 480px) {
+    .join-titan-main-div {
+        padding: 20px 15px;
+        gap: 16px;
+    }
+
+    .join-titan-1st-div h2 {
+        font-size: 18px;
+    }
+
+    .join-titan-2nd-div p {
+        font-size: 11px;
+        line-height: 160%;
+    }
+}
+
+
