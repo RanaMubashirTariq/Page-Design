@@ -91,7 +91,6 @@
     }
 }
 
-/* Mobile - 480px and below */
 @media screen and (max-width: 480px) {
     .step-5-main-div {
         padding: 20px 15px;

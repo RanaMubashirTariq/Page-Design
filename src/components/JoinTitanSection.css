@@ -70,7 +70,7 @@
     }
 }
 
-/* Mobile View (below 768px) */
+
 @media screen and (max-width: 1000px) {
     .join-titan-main-div {
         padding: 30px 20px;
@@ -86,10 +86,7 @@
         line-height: 170%;
     }
 
-    /* Hide desktop image, show mobile image */
-    /* .join-titan-3rd-div {
-        display: none;
-    } */
+
 
     .join-titan-4rd-div img {
         display: none;
@@ -99,7 +96,6 @@
     }
 }
 
-/* Small Mobile (below 480px) */
 @media screen and (max-width: 480px) {
     .join-titan-main-div {
         padding: 20px 15px;

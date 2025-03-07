@@ -83,7 +83,7 @@
         }
     }
     
-    /* Responsive - Mobile View (600px and below) */
+
     @media screen and (max-width: 600px) {
         .step-3-main-div {
             padding: 30px 20px;
@@ -112,7 +112,6 @@
         }
     }
     
-    /* Responsive - Small Mobile View (up to 400px) */
     @media screen and (max-width: 400px) {
         .step-3-main-div {
             padding: 20px 15px;

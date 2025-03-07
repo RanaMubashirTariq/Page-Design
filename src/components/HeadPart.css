@@ -7,8 +7,6 @@
 }
 .head-part-right-div{
     width: 100%;
-    /* width: 520px;
-    height: 282px; */
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -23,8 +21,6 @@
     gap: 16px;
 }
 .head-part-1st-div button{
-    /* width: 81px;
-    height: 36px; */
     border-radius: 200px;
     padding: 14px 15px;
     background: rgba(255, 255, 255, 1);
@@ -59,8 +55,6 @@
     color: rgba(0, 0, 0, 1);
 }
 .head-part-3rd-right{
-    /* width: 100%; */
-    /* max-width: 420px; */
     display: flex;
     align-items: center;
     gap: 10px;
@@ -79,8 +73,6 @@
 }
 .head-part-left-part{
     width: 100%;
-    /* width: 520;
-    height: 282; */
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -139,7 +131,6 @@
         font-size: 14px;
     }
     .head-part-3rd-right{
-        /* max-width: 370px; */
         gap: 5px;
         padding: 15px;
     }
